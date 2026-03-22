@@ -1,0 +1,98 @@
+{
+  "contactBar": {
+    "contactItems": [
+      {
+        "type": "email",
+        "label": "sakshimiss397@gmail.com",
+        "icon": "/images/icon/mail-icon.svg",
+        "link": "mailto:sakshimiss397@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+91 9284877881",
+        "icon": "/images/icon/call-icon.svg",
+        "link": "tel:+91 9284877881"
+      }
+    ],
+    "socialItems": [
+      {
+        "platform": "linkedin",
+        "icon": "/images/icon/linkedin-icon.svg",
+        "link": "https://www.linkedin.com/in/sakshi-jain-a640a7246/"
+      },
+      {
+        "platform": "instagram",
+        "icon": "/images/icon/instagram-icon.svg",
+        "link": "https://www.instagram.com/sakshij__02/"
+      }
+    ]
+  },
+  "educationData": {
+    "education": [
+      {
+        "title": "Bachelor of Engineering in Computer Engineering 2022 — 2025",
+        "description": "SNJB's Late Sau. Kantabai Bhavarlalji Jain College of Engineering, Chandwad | 1st Class with Distinction"
+      },
+      {
+        "title": "Diploma of Engineering in Computer Engineering 2019 — 2022",
+        "description": "Shri Hiralal Hastimal(Jain Brothers) Polytechnic, Chandwad | 1st Class with Distinction"
+      }
+    ],
+    "skills": [
+      {
+        "name": "AWS",
+        "icon": "/images/home/education-skill/aws-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Linux",
+        "icon": "/images/home/education-skill/linux-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "ServiceNow",
+        "icon": "/images/home/education-skill/servicenow-icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "Git",
+        "icon": "/images/home/education-skill/git-icon.svg",
+        "rating": 4
+      },
+            {
+        "name": "Docker",
+        "icon": "/images/home/education-skill/docker-icon.svg",
+        "rating": 3
+      },
+      {
+        "name": "Terraform",
+        "icon": "/images/home/education-skill/terraform-icon.svg",
+        "rating": 3
+      }
+    ]
+  },
+  "contactLinks": {
+    "socialLinks": [
+      {
+        "title": "Instagram",
+        "href": "/"
+      },
+      {
+        "title": "LinkedIn",
+        "href": "/"
+      }
+    ],
+    "contactInfo": [
+      {
+        "type": "email",
+        "label": "sakshimiss397@gmail.com",
+        "link": "mailto:sakshimiss397@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+91 9284877881",
+        "link": "tel:+91 9284877881"
+      }
+    ]
+  }
+}
