@@ -3,38 +3,38 @@ import React from 'react';
 const ExperienceSec = () => {
     const experiences = [
         {
-            year: "Nov 2023 - Present",
-            title: "Infrastructure Operation Engineer",
+            year: "July 2022 - Present",
+            title: "Cloud Infrastructure Engineer",
             company: "www.dxc.com",
             type: "Fulltime - Remote",
             description: 
             <p className="leading-relaxed text-base">
             <ul>
-                <li>Managed and maintained Linux-based production servers supporting enterprise workloads in cloud environment.</li>
-                <li>Monitored production infrastructure using monitoring tools and resolved critical alerts to maintain system availability.</li>
-                <li>Worked with AWS services including EC2, S3, IAM, and VPC to support cloud infrastructure.</li>
-                <li>Investigated infrastructure issues and performed root cause analysis to prevent recurring incidents.</li>
-                <li>Supported backup and disaster recovery processes for business-critical systems.</li>
-                <li>Collaborated with cross-functional teams to ensure system reliability and uptime.</li>
+                        <li>Managed AWS infrastructure (EC2, VPC, S3, IAM, CloudWatch)
+                            across multi-account environments, ensuring high availability
+                            and security for production workloads. </li>
+                        <li>Handled end-to-end incident management using ServiceNow;
+                            resolved 20+ monthly issues (EC2, IAM, VPC) while meeting SLA
+                            targets.</li>
+                        <li>
+                            Performed server patching, backups, and release activities;
+                            supported AWS Backup and snapshot recovery with defined
+                            RTO/RPO.</li>
+                        <li>
+                            Configured IAM roles, policies, and security controls for 100+
+                            accounts; enforced MFA and least-privilege access.
+                            Used Terraform to provision and standardize infrastructure
+                            (EC2, VPC, IAM, S3), reducing manual effort and improving
+                            consistency.</li>
+                        <li>Built CloudWatch dashboards and alerts; integrated SNS
+                            notifications, reducing incident detection time by 40%.
+                            Created SOPs and runbooks; collaborated with teams to
+                            improve operational efficiency and onboarding.</li>
+                        <li>Performed Linux diagnostics and automated EC2 tasks using
+                            Bash (health checks, start/stop, snapshots, log archival).</li>
             </ul>
             </p>
             },
-        {
-            year: "July 2022 - Oct 2023",
-            title: "Associate Service Delivery coordinator",
-            company: "www.dxc.com",
-            type: "Fulltime - Remote",
-            description: 
-            <p className="leading-relaxed text-base1">
-            <ul>
-                <li>Coordinated with infrastructure and support teams to ensure efficient service delivery operations.</li>
-                <li>Managed incident tickets and service requests using ServiceNow ITSM platform.</li>
-                <li>Assisted in monitoring service performance and maintaining SLA compliance.</li>
-                <li>Communicated with stakeholders regarding issue resolution, service updates, and operational status.</li>
-                <li>Prepared operational documentation and reports to support service management processes.</li>
-            </ul>
-            </p>
-        },
     ];
 
     return (
