@@ -15,7 +15,7 @@ COPY . .
 RUN npm run build
 
 
-# Stage 2: Serve the app with Nginx (Production)
+# Stage 2: Server the app with Nginx (Production)
 FROM nginx:alpine
 
 # Copy the static 'out' folder from the builder stage to Nginx

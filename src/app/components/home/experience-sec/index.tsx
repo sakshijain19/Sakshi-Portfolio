@@ -7,34 +7,17 @@ const ExperienceSec = () => {
             title: "Cloud Infrastructure Engineer",
             company: "www.dxc.com",
             type: "Fulltime - Remote",
-            description: 
-            <p className="leading-relaxed text-base">
-            <ul>
-                        <li>Managed AWS infrastructure (EC2, VPC, S3, IAM, CloudWatch)
-                            across multi-account environments, ensuring high availability
-                            and security for production workloads. </li>
-                        <li>Handled end-to-end incident management using ServiceNow;
-                            resolved 20+ monthly issues (EC2, IAM, VPC) while meeting SLA
-                            targets.</li>
-                        <li>
-                            Performed server patching, backups, and release activities;
-                            supported AWS Backup and snapshot recovery with defined
-                            RTO/RPO.</li>
-                        <li>
-                            Configured IAM roles, policies, and security controls for 100+
-                            accounts; enforced MFA and least-privilege access.
-                            Used Terraform to provision and standardize infrastructure
-                            (EC2, VPC, IAM, S3), reducing manual effort and improving
-                            consistency.</li>
-                        <li>Built CloudWatch dashboards and alerts; integrated SNS
-                            notifications, reducing incident detection time by 40%.
-                            Created SOPs and runbooks; collaborated with teams to
-                            improve operational efficiency and onboarding.</li>
-                        <li>Performed Linux diagnostics and automated EC2 tasks using
-                            Bash (health checks, start/stop, snapshots, log archival).</li>
-            </ul>
-            </p>
-            },
+            description: (
+                <ul className="list-disc pl-4 space-y-2">
+                    <li>Managed AWS infrastructure (EC2, VPC, S3, IAM, CloudWatch) across multi-account environments, ensuring high availability and security for production workloads.</li>
+                    <li>Handled end-to-end incident management using ServiceNow; resolved 20+ monthly issues (EC2, IAM, VPC) while meeting SLA targets.</li>
+                    <li>Performed server patching, backups, and release activities; supported AWS Backup and snapshot recovery with defined RTO/RPO.</li>
+                    <li>Configured IAM roles, policies, and security controls for 100+ accounts; enforced MFA and least-privilege access. Used Terraform to provision and standardize infrastructure (EC2, VPC, IAM, S3), reducing manual effort and improving consistency.</li>
+                    <li>Built CloudWatch dashboards and alerts; integrated SNS notifications, reducing incident detection time by 40%. Created SOPs and runbooks; collaborated with teams to improve operational efficiency and onboarding.</li>
+                    <li>Performed Linux diagnostics and automated EC2 tasks using Bash (health checks, start/stop, snapshots, log archival).</li>
+                </ul>
+            )
+        },
     ];
 
     return (
@@ -75,9 +58,8 @@ const ExperienceSec = () => {
                                         <p className="text-base font-normal">{exp.type}</p>
                                     </div>
                                 </div>
-
-                                <div className="pl-8 sm:pl-0">
-                                    <p className="leading-relaxed text-base">{exp.description}</p>
+                                <div className="pl-8 sm:pl-0 leading-relaxed text-base text-gray-800">
+                                    {exp.description}
                                 </div>
                             </div>
                         ))}
